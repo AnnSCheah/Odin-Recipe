@@ -1,17 +1,25 @@
 * {
   background-color: pink;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .title,
 .subtitle {
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
   color: lightcoral;
 }
 
 .subtitle {
   color: lightgoldenrodyellow;
+}
+
+p a {
+  text-decoration: none;
+}
+
+.recipe li {
+  font-size: 30px;
 }
 
 ul {
@@ -21,11 +29,12 @@ ul {
   padding: 0;
 }
 
-li {
+ul li {
   text-align: center;
+}
+
+li {
   color: black;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
   padding: 5px;
 }
 
